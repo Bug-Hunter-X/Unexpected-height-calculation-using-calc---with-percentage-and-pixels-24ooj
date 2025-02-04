@@ -1,0 +1,1 @@
+The CSS code uses `calc()` with a percentage and a pixel value, but the percentage is calculated based on the element's width. The same calc() is used for the height, which unexpectedly uses the element's width to compute the height, leading to an unexpected layout.
